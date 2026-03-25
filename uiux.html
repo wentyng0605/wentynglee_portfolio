@@ -7,6 +7,8 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
 </head>
+
+
 <body>
 
   <header>
@@ -45,8 +47,8 @@
     
     <h1 class="project-detail-title">UI/UX Design</h1>
     <div class="title-divider"></div>
-    <p class="project-intro">A 3D side-scrolling platformer-advedian tasked with uncovering the cause of a dark curse that is draining the life from the forest. 
-          By blending platforming and RPG elements, the game invitture set in a medieval world.</p>
+    <p class="project-intro">A collection of user-centric digital experiences, bridging the gap between rigorous HCI research and high-performance frontend implementation. 
+      From campus ticketing to travel planning—designed with purpose, built with precision.</p>
 
     <section id="uiux" class="center-align card">
       <div class="project-header">
@@ -55,39 +57,59 @@
         <p class="role-text"><strong>Role:</strong> UI/UX Designer & Front-end Developer</p>
       </div>
 
+      
       <div class="center-content">
         <div class="detail-visual">
           <img src="assets/images/bg1.jpg" alt="Portfolio Website" style="border-radius: 15px; width: 100%;">
         </div>
         <div class="paragraph">
-          <div class="theory-section reveal">
+          <div class="content-block">
             <h3 class="sub-heading"><i class="fas fa-exclamation-circle"></i> The Challenge</h3>
-            <p>As a Digital Media Technology graduate, I needed a platform that not only showcases my diverse projects but also reflects my technical proficiency in bridging the gap between design and code. 
-              The goal was to create a high-performance, responsive personal brand hub that provides a seamless user experience across all devices.</p>
+            <p>As a Digital Media Technology graduate, , I needed a platform that didn't just 'list' my work, but acted as living proof of my technical proficiency.
+               The goal was to build a high-performance, responsive site from scratch that balances visual storytelling with clean, production-ready code.</p>
           </div>
 
-          <div class="theory-section reveal">
-            <h3 class="sub-heading"><i class="fas fa-sync-alt"></i> Design Strategy</h3>
-            <p><strong>Visual Identity:</strong>  I chose a minimalist "Dark Mode" aesthetic for the navigation to ensure that project thumbnails stand out without visual clutter.</p>
-            <p><strong>Information Architecture:</strong>  I implemented a "Card-based" layout for project details to group related information (Video, Text, Gallery) into digestible units.
-            </p>
-            <p><strong>Typography:</strong> Selected clean, sans-serif typefaces to ensure maximum readability for long-form case studies.
-            </p>
+          <div class="content-block">
+            <h3 class="sub-heading"><i class="fas fa-exclamation-circle"></i> The Process</h3>
+              <p><strong>Information Architecture: </strong>I categorized my diverse projects (UI/UX, Game Dev, Research) into a modular system, ensuring users can navigate between domains without feeling overwhelmed.</p>
+              <p><strong>Performance Engineering: </strong>Moving away from heavy templates, I chose a vanilla HTML/CSS/JS stack to ensure sub-second loading times and full creative control over micro-interactions.</p>
           </div>
 
-          <div class="theory-section reveal">
-            <h3 class="sub-heading"><i class="fas fa-exclamation-circle"></i> Technical Implementation</h3>
-            <p>Unlike using templates, I built this site from scratch using HTML5, CSS3, and JavaScript to ensure complete creative control.</p>
-            <p><strong>Responsive Grid:</strong>   Utilized CSS Grid and Flexbox to ensure the layout adapts from large desktop monitors to mobile screens.</p>
-            <p><strong>Interactive Components:</strong> Developed custom dropdown menus and hover effects to enhance micro-interactions and user engagement.</p>
-            <p><strong>Performance Optimization:</strong> Optimized assets and hosting via GitHub Pages for fast loading speeds and reliable uptime.</p>
+            <div class="content-block">
+              <h3 class="sub-heading"><i class="fas fa-sync-alt"></i> Design Strategy & HCI Implementation</h3>
+              <p>To ensure an intuitive user journey, I applied Human-Computer Interaction (HCI) principles to solve specific pain points identified during stakeholder interviews.</p>
+              
+              <div class="design-solutions-grid">
+                <div class="solution-item">
+                  <h4>Immersive Dark Mode Aesthetic</h4>
+                  <p><strong>Logic: </strong> I implemented a deep-themed UI to serve as a neutral "canvas." 
+                    This allows the vibrant colors of my project thumbnails to stand out, minimizing visual noise and directing the user's focus to the work.</p>
+                </div>
+                <div class="solution-item">
+                  <h4>The Modular Card System</h4>
+                  <p><strong>Logic: </strong> To ensure scalability, I developed a reusable Card Component. 
+                    Each card encapsulates project metadata, tech stacks, and visual previews into a single, digestible unit for effortless browsing.</p>
+                </div>
+                <div class="solution-item">
+                  <h4>Fluid Responsive Layout (CSS Grid/Flexbox)</h4>
+                  <p> <strong>Logic: </strong> Utilizing a mobile-first approach, 
+                    I engineered a responsive grid that adapts seamlessly from 4K monitors to mobile screens, maintaining a perfect visual hierarchy at every breakpoint.</p>
+                </div>
+                <div class="solution-item">
+                  <h4>Engaging Micro-Interactions</h4>
+                  <p><strong>The Logic: </strong> Adhering to UX Motion Principles, I added subtle hover effects and smooth transitions. 
+                    These provide immediate feedback, guiding the user's eye and adding a layer of "polish" that defines high-end web experiences.
+                  </p>
+                </div>
+             </div>
+
           </div>
 
-          <div class="theory-section reveal">
-            <h3 class="sub-heading"><i class="fas fa-exclamation-circle"></i>Key Features</h3>
-            <p><strong> Dynamic Navigation:</strong>   A smooth, hover-active navigation bar with organized sub-categories for Game Dev, UI/UX, and Research.</p>
-            <p><strong>Integrated Media Gallery:</strong>A seamless blending of video trailers and high-resolution image galleries within a single project card.</p>
-            <p><strong>Consistent Branding:</strong> A unified color palette and spacing system applied across all sub-pages.</p>
+          <div class="content-block">
+            <h3 class="sub-heading"><i class="fas fa-sync-alt"></i>Technical Toolkit</h3>
+                <p><strong>Prototyping:</strong>  Figma (High-Fidelity Interactivity)</p>
+                <p><strong>Visual Assets:</strong> Canva (Brand Identity & Graphics)</p>
+                <p><strong>Methodology:</strong> User-Centered Design (UCD) & Rapid Prototyping</p>
           </div>
 
         </div>
@@ -102,8 +124,11 @@
       </div>
           
       <div class="cta-section">
-        <a href="#" class="project-btn">Learn More</a>
+        <a  target="_blank" class="project-btn" id="trippie-btn">
+          Learn More
+        </a>
       </div>
+
     </section>
     
     <section id="uiux" class="center-align card">
@@ -118,45 +143,59 @@
           <img src="assets/images/bg1.jpg" alt="Bloom-In-Motion App Interface" style="border-radius: 15px; width: 100%;">
         </div>
         <div class="paragraph">
-      <div class="theory-section reveal">
-        <h3 class="sub-heading"><i class="fas fa-exclamation-circle"></i> The Challenge</h3>
-        <p>Managing event registration for university clubs can be chaotic. 
-          Traditional manual sign-ups often lead to fragmented information and high cognitive load for students. 
-          The goal was to design a mobile-friendly ticketing web app that simplifies seat selection and payment verification, 
-          ensuring a seamless experience for both organizers and attendees.</p>
-      </div>
+          <div class="content-block">
+            <h3 class="sub-heading"><i class="fas fa-exclamation-circle"></i> The Challenge</h3>
+            <p>Managing event registration for university clubs can be chaotic. 
+              Traditional manual sign-ups often lead to fragmented information and high cognitive load for students. 
+              The goal was to design a mobile-friendly ticketing web app that simplifies seat selection and payment verification, 
+              ensuring a seamless experience for both organizers and attendees.</p>
+          </div>
 
-      <div class="theory-section reveal">
-        <h3 class="sub-heading"><i class="fas fa-sync-alt"></i> The Process</h3>
-        <p><strong>Requirement Gathering:</strong>  I conducted user interviews with club representatives to map out pain points in the existing registration flow, identifying "information clarity", "registration traffic" and "seat availability" as top priorities.</p>
-        <p><strong>Flow Optimization:</strong> Applying Human-Computer Interaction (HCI) principles, I designed an intuitive user flow that minimizes the number of steps required to complete a booking.</p>
-      </div>
-    </div>
+          <div class="content-block">
+            <h3 class="sub-heading"><i class="fas fa-sync-alt"></i> The Process</h3>
+            <p><strong>Requirement Gathering:</strong>  I conducted user interviews with club representatives to map out pain points in the existing registration flow, identifying "information clarity", "registration traffic" and "seat availability" as top priorities.</p>
+            <p><strong>Flow Optimization:</strong> Applying Human-Computer Interaction (HCI) principles, I designed an intuitive user flow that minimizes the number of steps required to complete a booking.</p>
+          </div>
+
+          <div class="content-block">
+              <h3 class="sub-heading"><i class="fas fa-sync-alt"></i> Design Strategy & HCI Implementation</h3>
+              <p>To ensure an intuitive user journey, I applied Human-Computer Interaction (HCI) principles to solve specific pain points identified during stakeholder interviews.</p>
+              
+              <div class="design-solutions-grid">
+                <div class="solution-item">
+                  <h4>Conversion-Optimized Landing Page</h4>
+                  <p><strong>Problem: </strong> I curated event details and club background information to ensure students can immediately find the "Why" and "What" of the event.</p>
+                  <p><strong>Solution: </strong> I designed a high-contrast hero section that highlights the Call-to-Action (Buy Ticket) immediately, paired with a clean information hierarchy for event specifics.</p>
+
+                </div>
+                <div class="solution-item">
+                  <h4>Interactive Seat Selection (Visual Mapping)</h4>
+                  <p><strong>Logic: </strong> Applied <strong>Fitts's Law</strong> to optimize button placement and sizing. 
+                    The auditorium layout uses color-coding to minimize cognitive load, allowing users to select seats with a single tap.</p>
+                </div>
+                <div class="solution-item">
+                  <h4>Frictionless Payment Journey</h4>
+                  <p> <strong>Logic: </strong> Implemented Progressive Disclosure in the checkout flow. By breaking down the form into logical steps, I prevented "form fatigue" and reduced potential drop-off rates during payment.</p>
+                </div>
+                <div class="solution-item">
+                  <h4>Instant System Feedback</h4>
+                  <p><strong>The Logic: </strong> Adhering to Nielsen’s Usability Heuristics (Visibility of System Status), I designed a visually distinct confirmation 
+                    screen to provide immediate closure and peace of mind after a successful transaction.
+                  </p>
+                </div>
+             </div>
+          </div>
+
+          <div class="content-block">
+            <h3 class="sub-heading"><i class="fas fa-sync-alt"></i>Technical Toolkit</h3>
+                <p><strong>Prototyping:</strong>  Figma (High-Fidelity Interactivity)</p>
+                <p><strong>Visual Assets:</strong> Canva (Brand Identity & Graphics)</p>
+                <p><strong>Methodology:</strong> User-Centered Design (UCD) & Rapid Prototyping</p>
+          </div>
+
+        </div>
   </div>
-
-      <div class="design-solutions-grid">
-        <div class="solution-item">
-          <h4>01. Landing Page</h4>
-          <p> I curated event details and club background information to ensure students can immediately find the "Why" and "What" of the event.</p>
-        </div>
-        <div class="solution-item">
-          <h4>02. Interactive Seating</h4>
-          <p> I designed a grid-based auditorium layout, 
-            focusing on effective tap-target sizing and clear status indicators 
-            (Available vs. Occupied) to ensure effortless selection.</p>
-        </div>
-        <div class="solution-item">
-          <h4>03. Structured Payment Flow</h4>
-          <p> By utilizing Progressive Disclosure, I broke down the confirmation process into manageable segments, effectively reducing user anxiety and potential errors during checkout.</p>
-        </div>
-        <div class="solution-item">
-          <h4>04. System Visibility</h4>
-          <p> I implemented a robust "Payment Status" page that provides instant, 
-            positive feedback, ensuring the user feels confident about their successful purchase.
-          </p>
-        </div>
-      </div>
-          
+ 
       </div>
           <div class="gallery-grid">
             <div class="gallery-item"><img src="assets/images/image1.jpeg" alt="Gallery 1"></div>
@@ -166,7 +205,9 @@
       </div>
           
       <div class="cta-section">
-        <a href="#" class="project-btn">Learn More</a>
+        <a href="https://bloom-in-motion-a04ee.web.app/" target="_blank" rel="noopener" class="project-btn">
+          View WebApp
+        </a>
       </div>
     </section>
 
@@ -183,66 +224,75 @@
         </div>
 
         <div class="paragraph">
-          <div class="theory-section reveal">
+          <div class="content-block">
             <h3 class="sub-heading">✦ The Challenge</h3>
-            <p>Budget-conscious travelers struggle with fragmented tools—switching between spreadsheets for budgeting and maps for navigation. I aimed to create a seamless, integrated experience combining itinerary planning and financial tracking.</p>
+            <p>Travelers often struggle to balance itinerary logistics with budget constraints. 
+              My goal for this HCI project was to design a seamless management solution that integrates hotel/flight booking with real-time budget tracking, validated through rigorous user testing.</p>
           </div>
 
-          <div class="theory-section reveal">
+          <div class="content-block">
             <h3 class="sub-heading">✦ User Research & Insights</h3>
-            <p><strong>Methodology:</strong> Conducted surveys to uncover real-world frustrations.</p>
-            <p><strong>Key Finding:</strong> "Hidden costs" and "Complex syncing" were the biggest stressors. This data directly informed the app’s core budget-tracking features.</p>
+            <p>I conducted quantitative research with 25 participants to measure usability and user satisfaction.</p>
+            <p><strong>User Demographic:</strong> Target audience aged 18-25, focusing on tech-savvy frequent travelers.</p>
+            <p><strong>Testing Setup:</strong> A Within-Subject Design where users performed specific tasks (Login, Explore Navigation, and Feedback) to test the app's intuitiveness.</p>
           </div>
-        </div>
-      </div>
 
-      <div class="design-solutions-grid">
-        <div class="solution-item">
-          <h4>01. Flat Hierarchy</h4>
-          <p>Developed wireframes with a "three-tap" rule: users can log an expense or add a destination in fewer than three taps to minimize friction.</p>
-        </div>
-        <div class="solution-item">
-          <h4>02. Minimalist UI</h4>
-          <p>Applied a clean aesthetic with high-contrast typography, ensuring readability even in bright, outdoor travel conditions.</p>
-        </div>
-        <div class="solution-item">
-          <h4>03. Cognitive Load Reduction</h4>
-          <p>Utilized intentional white space to help users focus on essential travel information without feeling overwhelmed.</p>
-        </div>
-        <div class="solution-item">
-          <h4>04. Community Wisdom</h4>
-          <p>Integrated a social layer for verified "budget tips," fostering trust and connection within the traveling community.</p>
-        </div>
-      </div>
+          <div class="content-block">
+              <h3 class="sub-heading"><i class="fas fa-sync-alt"></i>Design Strategy & Heuristic Evaluation</h3>
+              <p>Leveraging Nielsen’s 10 Usability Heuristics, I ensured the interface feels familiar and reliable.</p>
+              
+              <div class="design-solutions-grid">
+                <div class="solution-item">
+                  <h4>Recognition Over Recall (The Dashboard)</h4>
+                  <p><strong>Logic: </strong> I prioritized clear iconography and visual cues (Hotel, Flights, Food) to reduce the user's cognitive load. 
+                    Instead of remembering where features are, users can intuitively recognize actions.</p>
 
-      <div class="success-metrics">
-          <div class="metric-item reveal">
-              <div class="metric-number">80.8%</div>
-              <div class="metric-label">SUS Score (Excellent)</div>
-              <div class="metric-progress-bar"><div class="fill" style="width: 80.8%;"></div></div>
+                </div>
+                <div class="solution-item">
+                  <h4>System Match to the Real World (Map Integration)</h4>
+                  <p><strong>Logic: </strong> The map interface utilizes familiar gestures (Pinch-to-zoom, Drag-to-move). 
+                    The booking flow mimics a real-world logical sequence: choose dates -> select destination -> review options.</p>
+                </div>
+                <div class="solution-item">
+                  <h4>Consistency & Standards</h4>
+                  <p> <strong>Logic: </strong> I maintained a strict visual language across the app—from the forest-green color palette to the card-based layout—ensuring users feel confident and comfortable as they navigate.</p>
+                </div>
+                
+             </div>
           </div>
-          <div class="metric-item reveal" style="transition-delay: 0.2s;">
-              <div class="metric-number">25</div>
-              <div class="metric-label">User Participants</div>
-          </div>
-          <div class="metric-item reveal" style="transition-delay: 0.4s;">
-              <div class="metric-number">84%</div>
-              <div class="metric-label">User Satisfaction</div>
-          </div>
-      </div>
 
-      <div class="theory-section reveal">
-          <h3 class="sub-heading">✦ Applying Nielsen's Heuristics</h3>
-          <div class="theory-grid">
-              <div class="theory-item">
-                  <strong>Recognition over Recall</strong>
-                  <p>Used clear iconography and interactive visual cues to reduce memory load during complex flight bookings.</p>
+          <div class="content-block">
+            <h3 class="sub-heading">The Results & Discussion</h3>
+            <p>The prototype was evaluated using the System Usability Scale (SUS) to ensure quantitative validation of the design.</p>
+
+            <div class="success-metrics">
+              <div class="metric-item reveal">
+                  <div class="metric-number">80.8%</div>
+                  <div class="metric-label">SUS Score (Excellent)</div>
+                  <div class="metric-progress-bar"><div class="fill" style="width: 80.8%;"></div></div>
               </div>
-              <div class="theory-item">
-                  <strong>Consistency & Standards</strong>
-                  <p>Maintained a unified color palette and spacing system across 15+ screens to accelerate user mastery.</p>
+              <div class="metric-item reveal" style="transition-delay: 0.2s;">
+                  <div class="metric-number">25</div>
+                  <div class="metric-label">User Participants</div>
+              </div>
+              <div class="metric-item reveal" style="transition-delay: 0.4s;">
+                  <div class="metric-number">84%</div>
+                  <div class="metric-label">User Satisfaction</div>
               </div>
           </div>
+
+            <p><strong>SUS Score:</strong> 80.8%. A score above 80 is considered "Excellent/A-grade," indicating a high level of user acceptability.</p>
+            <p><strong>User Satisfaction:</strong> 84% of participants expressed intent to use Trippie for their future travel planning.</p>
+            <p><strong>Key Insight:</strong> Post-test discussions revealed a high demand for "Transportation Integration," which I have earmarked for the next design iteration.</p>
+          </div>
+
+          <div class="content-block">
+            <h3 class="sub-heading"><i class="fas fa-sync-alt"></i>Technical Toolkit</h3>
+                <p><strong>Prototyping:</strong>  Figma (High-Fidelity Interactivity)</p>
+                <p><strong>Visual Assets:</strong> Canva (Brand Identity & Graphics)</p>
+                <p><strong>Methodology:</strong> User-Centered Design (UCD) & Rapid Prototyping</p>
+          </div>
+        </div>
       </div>
 
       <div class="gallery-grid">
@@ -251,13 +301,22 @@
         <div class="gallery-item"><img src="assets/images/tb-userflow.jpg" alt="User Flow"></div>
         <div class="gallery-item"><img src="assets/images/tb-final.jpg" alt="Final UI"></div>
       </div>
+
+      <div class="cta-section">
+        <a href="https://www.figma.com/design/Z9bhfsa8DXiW72nAGPfmmI/Untitled?node-id=0-1&t=8kiJQ5jdRwCGWmjR-1" target="_blank" rel="noopener" class="project-btn">
+          View Prototype
+        </a>
+      </div>
+      
     </section>
 
 
   </main>
     <script src="scrollspy.js"></script>
+    <script src="script.js"></script>
 
-  
+
+
 
 </body>
 </html>
