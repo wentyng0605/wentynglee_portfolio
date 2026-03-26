@@ -693,7 +693,7 @@ html {
 
 
 .detail-content-card {
-  width: 1096;
+  width: 1096px;
   background: white;
   padding: 80px;
   border-radius: 20px;
@@ -780,8 +780,8 @@ html {
 }
 
 .center-align.card {
-   width: 960px; /* 已补全单位 */
-  max-width: 90%; /* 建议加个 max-width，防止在手机上溢出 */
+   width: 1096px; /* 已补全单位 */
+  max-width: 100%; /* 建议加个 max-width，防止在手机上溢出 */
   margin: 40px auto; /* 自动居中 */
   background: white;
   padding: 80px;
@@ -1093,4 +1093,8 @@ section {
 @media (max-width: 900px) {
   .project-grid { grid-template-columns: 1fr !important; }
   .side-nav { display: none; }
+}
+
+.gamedev-page {
+  background-color: rgb(85, 85, 85); 
 }
