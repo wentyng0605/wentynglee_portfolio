@@ -19,3 +19,23 @@ window.addEventListener('scroll', () => {
     }
   });
 });
+
+window.addEventListener('scroll', () => {
+  const sections = document.querySelectorAll('section');
+  const navItems = document.querySelectorAll('.nav-item');
+  let current = "";
+
+  sections.forEach(section => {
+    const sectionTop = section.offsetTop;
+    if (pageYOffset >= sectionTop - 300) {
+      current = section.getAttribute('id');
+    }
+  });
+
+  navItems.forEach(item => {
+    item.classList.remove('active');
+    if (item.querySelector('a').getAttribute('href').includes(current)) {
+      item.classList.add('active');
+    }
+  });
+});
