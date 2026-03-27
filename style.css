@@ -995,7 +995,6 @@ section {
 .video-container {
     position: relative;
     width: 100%;
-    padding-bottom: 56.25%; /* 核心：9 / 16 = 0.5625，强制锁定 16:9 比例 */
     height: 0;
     overflow: hidden;
     background: #000; /* 加载前的底色 */
