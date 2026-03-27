@@ -1014,11 +1014,11 @@ section {
 }
 
 .video-caption {
-  text-align: center;
-  font-size: 0.85rem;
-  color: #888;
-  margin-top: 15px;
-  font-style: italic;
+    margin-top: 12px;
+    font-size: 0.85rem;
+    color: #888;
+    font-style: italic;
+    text-align: left; /* 改为左对齐更显杂志感 */
 }
 
 /* 数据仪表盘样式 */
