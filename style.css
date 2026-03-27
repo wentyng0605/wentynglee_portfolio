@@ -988,17 +988,20 @@ section {
 
 .video-wrapper {
     width: 100%;
+    max-width: 850px; /* 建议限制一个最大宽度，视觉上更高级 */
+    margin: 30px auto; /* 居中 */
 }
 
 /* 确保视频在手机和电脑上都能完美适配比例 */
 .video-container {
     position: relative;
     width: 100%;
-    padding-bottom: 56.25%; /* 核心：9 / 16 = 0.5625，强制锁定 16:9 比例 */
-    height: 0;
+    /* 16:9 比例的魔术数字。如果你的视频是这个比例，必须删掉原本的 height: 350px 或类似代码 */
+    padding-bottom: 56.25%; 
+    height: 0; 
     overflow: hidden;
-    background: #000; /* 加载前的底色 */
-    border-radius: 8px; /* 增加一点圆角看起来更高级 */
+    background: #000;
+    border-radius: 12px;
 }
 
 .video-container iframe {
@@ -1007,15 +1010,14 @@ section {
     left: 0;
     width: 100%;
     height: 100%;
-    border: 0;
+    border: none;
 }
 
 .video-caption {
-    margin-top: 12px;
+    margin-top: 15px;
     font-size: 0.85rem;
     color: #888;
-    font-style: italic;
-    text-align: left; /* 改为左对齐更显杂志感 */
+    text-align: left; /* 左对齐更有杂志感 */
 }
 
 /* 数据仪表盘样式 */
