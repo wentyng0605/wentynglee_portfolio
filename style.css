@@ -746,11 +746,6 @@ html {
   width: 100%; /* 撑满 1fr */
   max-width: none;
 }
-.detail-content-card {
-    padding: 80px 0;
-    max-width: 1200px;
-    margin: 0 auto;
-}
 
 .detail-content-card.reverse .detail-visual {
   order: 1; /* 把图片排到第1位 */
